@@ -1,0 +1,44 @@
+body {
+  background-color: #dddddd;
+  color: #222831;
+}
+
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: black 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+.notch {
+  background-color: black;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.white {
+  color: white;
+  transform: rotate(180deg);
+  margin-top: 25px;
+}
+.center {
+  text-align: center;
+  margin: 115px auto;
+}
